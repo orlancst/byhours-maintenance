@@ -4,13 +4,11 @@ export default {
 	theme: {
 		extend: {
 			backgroundImage: {
-				'fondo-carpediem': "url('/src/assets/img/fondo.jpg')",
+				'fondo-byhours': "url('/src/assets/img/fondo_city.webp')",
 			},
 			fontFamily: {
-				'open-sans': '"Open Sans", sans-serif',
-				'gill-sans': '"Gill Sans", sans-serif',
-				'gill-sans-medium': '"Gill Sans Medium", sans-serif',
-				'gill-sans-bold': '"Gill Sans Bold", sans-serif',
+				'roboto-bold': '"Roboto Bold", sans-serif',
+				'titilliumweb-semiBold': '"TitilliumWeb SemiBold", sans-serif',
 				
 			},
 			listStyleType: {
