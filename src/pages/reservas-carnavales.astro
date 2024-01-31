@@ -1,0 +1,66 @@
+---
+import { Image } from 'astro:assets';
+import logoByHours from '/src/assets/img/logo_byhours.png';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.webp" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Reservas Carnavales | ByHours Barranquilla</title>
+	</head>
+	<body class="h-screen bg-fondo-carnaval bg-cover bg-no-repeat bg-center box-content">
+
+		<section class="relative h-screen bg-black/40 py-8 sm:py-0 flex flex-col justify-center items-center gap-y-4">
+			<Image src={logoByHours} alt="Logo de motel Carpediem" class='select-none w-[220px] sm:w-[400px] mb-2 sm:mb-8'/>
+
+			<h3 class="text-white text-xl text-center mb-4 font-montserrat-bold">Prepárate para carnavales <br><b>¡Reserva ahora!</b></h3>
+
+			<div class="flex flex-col gap-y-4 mx-6 w-4/5 sm:w-auto ">
+
+				<a href="https://api.whatsapp.com/send?phone=573134128582&text=Buenas%2C%20quisiera%20hacer%20una%20reserva%20para%20carnavales" target="_blank" id="enlace_astor" class="group relative outline-0 font-montserrat-bold bg-[#ff5800] py-3 px-7 text-center rounded-full overflow-hidden align-middle transition-[color] duration-500 delay-[30ms] text-black hover:text-white">
+					<span class="relative inline-block z-20 group-hover:animate-textToRight ">
+						<span class="">BYHOURS ASTOR</span>
+					</span>
+					<span class="absolute block w-full h-full top-0 left-0 text-black group-hover:text-white">
+						<span class="absolute block w-full h-full top-0 left-0 bg-white transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] origin-[100%_50%] scale-x-1 group-hover:scale-x-0"></span>
+						<span class="absolute block w-full h-full top-0 left-0 bg-transparent transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] z-10 origin-[0_50%] scale-x-0 group-hover:scale-x-1"></span>
+					</span>
+				</a>
+
+				<a href="https://api.whatsapp.com/send?phone=573015945450&text=Buenas%2C%20quisiera%20hacer%20una%20reserva%20para%20carnavales" target="_blank" id="enlace_chiquinquira" class="group relative outline-0 font-montserrat-bold bg-[#ff5800] py-3 px-7 text-center rounded-full overflow-hidden align-middle transition-[color] duration-500 delay-[30ms] text-black hover:text-white">
+					<span class="relative inline-block z-20 group-hover:animate-textToRight ">
+						<span class="">BYHOURS CHIQUINQUIRÁ</span>
+					</span>
+					<span class="absolute block w-full h-full top-0 left-0 text-black group-hover:text-white">
+						<span class="absolute block w-full h-full top-0 left-0 bg-white transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] origin-[100%_50%] scale-x-1 group-hover:scale-x-0"></span>
+						<span class="absolute block w-full h-full top-0 left-0 bg-transparent transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] z-10 origin-[0_50%] scale-x-0 group-hover:scale-x-1"></span>
+					</span>
+				</a>
+
+				<a href="https://api.whatsapp.com/send?phone=573102385134&text=Buenas%2C%20quisiera%20hacer%20una%20reserva%20para%20carnavales" target="_blank" id="enlace_circunvalar" class="group relative outline-0 font-montserrat-bold bg-[#ff5800] py-3 px-7 text-center rounded-full overflow-hidden align-middle transition-[color] duration-500 delay-[30ms] text-black hover:text-white">
+					<span class="relative inline-block z-20 group-hover:animate-textToRight ">
+						<span class="">BYHOURS CIRCUNVALAR</span>
+					</span>
+					<span class="absolute block w-full h-full top-0 left-0 text-black group-hover:text-white">
+						<span class="absolute block w-full h-full top-0 left-0 bg-white transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] origin-[100%_50%] scale-x-1 group-hover:scale-x-0"></span>
+						<span class="absolute block w-full h-full top-0 left-0 bg-transparent transition-[-webkit-transform] duration-[0.3s] ease-[cubic-bezier(.215,0.61,0.355,1)] z-10 origin-[0_50%] scale-x-0 group-hover:scale-x-1"></span>
+					</span>
+				</a>
+			</div>
+
+
+		</section>
+
+	</body>
+</html>
+
+<style is:global>
+	@font-face {
+		font-family: 'Montserrat Bold';
+		src: url("/src/assets/fonts/Montserrat-Bold.ttf");
+		font-weight: bold;
+	}
+</style>
